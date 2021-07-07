@@ -3,7 +3,7 @@ package com.practice
   import util.control.Breaks
 
 object Example {
-  /*def threeSum(nums: Array[Int]): List[List[Int]] = {
+  def threeSum(nums: Array[Int]): List[List[Int]] = {
 
     nums.sorted
     var ans : List[List[Int]] = (List(List(0,0,0)))
@@ -48,30 +48,8 @@ object Example {
       }
     }
     ans
-  }*/
-  def reverse(x: Int): Int = {
-
-    var sign = 1
-    if(x<0)
-    {
-      sign = sign * -1
-    }
-
-    var temp = x.toString
-    var i = 0
-    var j = temp.length-1
-    while(i<j)
-    {
-      var a = temp.charAt(i)
-      temp.replace(temp.charAt(i),temp.charAt(j))
-      temp.charAt(j)=a
-      i = i+1
-      j = j-1
-    }
-    var b : Int = temp.toInt
-    b = b * sign
-    b
   }
+
 
   def main(args: Array[String]): Unit = {
 
