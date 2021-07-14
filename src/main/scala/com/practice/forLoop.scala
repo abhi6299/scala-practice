@@ -18,6 +18,10 @@ object forLoop {
     val p = for(x <- List(1,2,3); y<- List("10", "2") if x == y.toInt) yield (x,y)
     println(p)
 
+    for(i <- 1 until 5) print(i)
+    println()
+    for(i <- 1 to 5) print(i)
+
   }
 
 }
