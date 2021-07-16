@@ -15,7 +15,7 @@ class GFG extends myauthor
     println("Topic name: Abstract class in Scala")
   }
 }
-//Example 2
+//Example 2 - an abstract class can also contain fields
 abstract class Geek
 {
   var name : String = "GeeksforGeeks"
