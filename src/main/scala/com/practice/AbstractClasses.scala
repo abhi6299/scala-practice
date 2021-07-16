@@ -1,6 +1,6 @@
 package com.practice
 
-
+//From Book
 
 //Example 1
 abstract class Element {
@@ -14,7 +14,7 @@ class ArrayElement(conts: Array[String]) extends Element {
   def contents: Array[String] = conts
 }
 
-//Example2
+//Example2 (Overriding method defined in base class)
 class Cat {
   val dangerous = false
 }
