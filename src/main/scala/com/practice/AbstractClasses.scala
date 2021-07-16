@@ -1,7 +1,6 @@
 package com.practice
 
 //From Book
-
 //Example 1
 abstract class Element {
   def contents: Array[String]
@@ -9,7 +8,6 @@ abstract class Element {
   val width =
     if (height == 0) 0 else contents(0).length
 }
-
 class ArrayElement(conts: Array[String]) extends Element {
   def contents: Array[String] = conts
 }
@@ -18,7 +16,6 @@ class ArrayElement(conts: Array[String]) extends Element {
 class Cat {
   val dangerous = false
 }
-
 class Tiger(param1: Boolean, param2: Int) extends Cat {
   override val dangerous = param1
   private var age = param2
