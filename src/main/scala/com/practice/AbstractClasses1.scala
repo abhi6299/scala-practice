@@ -26,16 +26,11 @@ abstract class Geek
 // GFG class extends abstract class
 class GFG2 extends Geek
 {
-  // Abstract class method accessing
-  // fields of the abstract class
-  def portal()
+  def portal() // Abstract class method accessing fields of the abstract class
   {
-    println("Portal name: " + name)
-
+    println("Portal name: " + name) // Note here
   }
-  // GFG class method accessing
-  // fields of the abstract class
-  def tutdetails()
+  def tutdetails() // GFG class method accessing fields of the abstract class
   {
     println("Tutorial name: " + tutorial)
   }
