@@ -1,5 +1,7 @@
 package com.practice
 
+
+
 //Example 1
 abstract class Element {
   def contents: Array[String]
